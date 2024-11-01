@@ -1,0 +1,56 @@
+# Python #
+##########
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pyo
+*.pyd
+
+# Django #
+##########
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+staticfiles/
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore secrets.json or similar files that contain sensitive data
+secrets.json
+
+# Ignore Django migration files (optional)
+*/migrations/*
+
+# Ignore virtual environments
+venv/
+.venv/
+env/
+ENV/
+*.venv
+
+# Ignore IDE files #
+#####################
+.idea/
+.vscode/
+
+# Ignore OS generated files #
+##############################
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore compiled code and build artifacts
+##############################
+*.egg-info/
+*.eggs/
+*.egg
+*.manifest
+*.spec
+dist/
+build/
